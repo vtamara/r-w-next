@@ -4,8 +4,6 @@ import Layout from '../components/Layout';
 import { useEffect, useState } from 'react';
 import { useAccount } from 'wagmi';
 
-import 'tailwindcss/index.css';
-
 export default function Home() {
   const [userAddress, setUserAddress] = useState('');
   const [isMounted, setIsMounted] = useState(false);
